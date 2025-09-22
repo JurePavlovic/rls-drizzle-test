@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": ["deno.ns", "deno.window", "deno.unstable"],
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  },
+  "imports": {
+    "drizzle-orm": "npm:drizzle-orm",
+    "drizzle-orm/postgres-js": "npm:drizzle-orm/postgres-js",
+    "drizzle-orm/pg-core": "npm:drizzle-orm/pg-core",
+    "drizzle-orm/pg-core/schema": "npm:drizzle-orm/pg-core/schema",
+    "hono/utils/http-status": "npm:hono/utils/http-status",
+    "hono/factory": "npm:hono/factory",
+    "postgres": "npm:postgres",
+    "hono": "npm:hono",
+    "zod/v4": "npm:zod/v4",
+    "@hono/zod-validator": "npm:@hono/zod-validator",
+    "hono/jwt": "npm:hono/jwt",
+    "hono/logger": "npm:hono/logger",
+    "hono/cors": "npm:hono/cors",
+    "supabase": "jsr:@supabase/supabase-js@2"
+  },
+  "fmt": {
+    "files": {
+      "include": ["."]
+    }
+  },
+  "lint": {
+    "files": {
+      "include": ["."]
+    }
+  }
+}
